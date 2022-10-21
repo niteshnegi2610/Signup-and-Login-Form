@@ -1,0 +1,112 @@
+body {
+    background-color: #0d4a9b;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signup-box {
+    width: 360px;
+    height: 570px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.login-box {
+    width: 360px;
+    height: 290px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+form label {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 2px solid grey;
+    border-radius: 6px;
+    outline: none;
+    transition: opacity .6s;
+}
+
+form input:hover,
+form input:focus {
+    border-color: #3789f5;
+
+}
+
+.submit {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #15a86b;
+    color: white;
+    font-size: 18px;
+}
+
+.submit:hover,
+.submit:focus {
+    background-color: #103024;
+}
+
+.signup-para-1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.signup-para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.signup-para-1 a:hover {
+
+    color: rgb(3, 39, 25);
+}
+
+.signup-para-2 a:hover {
+
+    color: rgb(3, 39, 25);
+}
+
+.login-para {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.login-para a:hover {
+    color: rgb(3, 39, 25);
+}
